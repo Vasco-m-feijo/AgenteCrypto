@@ -7,8 +7,8 @@ import pandas as pd
 import numpy as np
 # Tenta carregar a biblioteca do gemini se instalada
 try:
-    import google.generativeai as genai
-    from google.generativeai import types
+    import google.genai
+    from google.genai import types
 except ImportError:
     genai = None
     
